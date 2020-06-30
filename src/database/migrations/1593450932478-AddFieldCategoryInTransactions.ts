@@ -7,7 +7,7 @@ export default class AddFieldCategoryInTransactions1593450932478
       'transactions',
       new TableColumn({
         name: 'category_id',
-        type: 'varchar',
+        type: 'uuid',
         generationStrategy: 'uuid',
         isNullable: true,
       }),
